@@ -1,0 +1,73 @@
+
+:root{
+    --clr-text: #3d3d3d;
+    --clr-primary: #067e0a;
+    --clr-accent: #764981;
+
+
+}
+
+html {
+    box-sizing: border-box;
+    color: #3d3d3d;
+    font-size: 1.125rem;
+}
+img{ 
+    display:block;
+    max-width: 100%;
+}
+/* typography */
+h1, h2, h3, h4, p {
+    margin:0;
+}
+
+h2, h3 {
+    line-height: 0.8;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+p{
+    margin-bottom: .85em;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+/* nav */
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+nav a {
+    display:inline-block;
+    padding: .5em;
+    color: var(--clr-primary);
+    text-decoration: none;
+}
+
+nav a:hover
+nav a:focus {
+    color: var(--clr-accent);
+    text-decoration: underline;
+}
+
+
+
+/* buttons */
+
+/* home page styles */
+
